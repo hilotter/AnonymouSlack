@@ -1,0 +1,10 @@
+{
+  "name": "AnnonymouSlack",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Post to slack as annonymous user.",
+  "permissions": ["https://*.amazonaws.com/"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
